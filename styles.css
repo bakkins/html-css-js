@@ -1,27 +1,41 @@
 #nameTitle {
-    padding-left: 50px;
+
 }
 
 #nameP {
     font-size: 34px;
+    width: 200px;
+    margin-left: auto;
 }
 
 #listDiv {
-    padding-left:50px ;
+
 }
 
 #uList {
-    padding-right:50px ;
+
 }
 
 #oList {
-    padding-left:50px ;
+
 }
 
 #megamind {
-    padding-left:50px ;
+
 }
 
 body {
-    background-color: chartreuse;
+    background-color: lightgray;
 }
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
