@@ -1,41 +1,101 @@
+#indexBody {
+    width: 800px;
+    margin: auto;
+    background-color: #ccc;
+}
 #nameTitle {
-
+    border-radius: 5px;
+    color:red;
+    font-size: 40px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 20px 20px 50px grey;
 }
 
-#nameP {
-    font-size: 34px;
-    width: 200px;
-    margin-left: auto;
+#listDiv{
+    font-size: 40px;
 }
 
-#listDiv {
-
+#uList{
+    padding-left: 100px;
+    padding-right: 150px;
 }
 
-#uList {
-
+#oList{
+    padding-right: 100px;
 }
 
-#oList {
-
+ul, ol {
+    display: inline-block;
 }
 
-#megamind {
 
+.bold-text {
+    font-weight: bold;
 }
 
 body {
-    background-color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://i0.wp.com/smeharbinger.net/wp-content/uploads/2010/11/megamind_1110-md.jpg?fit=300%2C300&ssl=1");
+    padding: 40px;
 }
 
-table {
-    width: 50%;
-    margin: auto;
-    border-collapse: collapse;
+h1 {
+  text-align: center;
+  color: #333;
+}
+h2 {
+  text-align: center;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-th, td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: center;
-    }
+form {
+  background-color: #fff;
+  width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  resize: vertical;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
